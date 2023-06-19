@@ -34,6 +34,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="apple" destination="Lhx-WO-X9b" id="5qp-LD-rbr"/>
+                        <outlet property="banana" destination="UC2-xq-nbf" id="nex-MS-ebO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
