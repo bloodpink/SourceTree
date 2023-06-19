@@ -8,10 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var apple: UILabel!
+    @IBOutlet weak var banana: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        apple.text = "apple"
+        banana.text = "banana"
     }
 
 
